@@ -1,5 +1,8 @@
 package com.example.fitnessappproject3.Model;
 
+import androidx.room.Room;
+import androidx.room.RoomDatabase;
+
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
@@ -25,4 +28,4 @@ public interface User {
 
 
     }
-}
+

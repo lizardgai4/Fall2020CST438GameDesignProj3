@@ -7,11 +7,10 @@ import java.util.List;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
-import androidx.Dao;
-import androidx.Delete;
-import androidx.Insert;
-import androidx.Query;
-import androidx.Update;
+import androidx.room.Delete;
+import androidx.room.Insert;
+import androidx.room.Query;
+import androidx.room.Update;
 
 public interface UserDAO {
 
