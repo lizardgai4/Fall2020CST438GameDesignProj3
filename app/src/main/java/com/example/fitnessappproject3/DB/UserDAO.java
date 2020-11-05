@@ -24,12 +24,4 @@ public interface UserDAO {
     @Query("DELETE FROM users")
     void deleteAllUsers();
 
-    @Query("SELECT * FROM users")
-    List<User> getAllUsers();
-
-    @Query("SELECT * FROM users where username LIKE :search")
-    User getUserWithUsername(String search);
-
-    @Query("SELECT * from users where userID=:userId")
-    User getUserById(Integer userId);
 }
